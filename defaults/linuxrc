@@ -246,6 +246,9 @@ do
 		swap_keydev=*)
 			CRYPT_SWAP_KEYDEV=${x#*=}
 		;;
+		swap_trim=*)
+			CRYPT_SWAP_TRIM=${x#*=}
+		;;
 		real_resume=*|resume=*)
 			REAL_RESUME=${x#*=}
 		;;
